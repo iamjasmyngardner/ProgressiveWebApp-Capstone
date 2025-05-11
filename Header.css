@@ -1,0 +1,40 @@
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Aptos', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+nav li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #f28b82;
+
+}
+
+hr {
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid #888;
+}
